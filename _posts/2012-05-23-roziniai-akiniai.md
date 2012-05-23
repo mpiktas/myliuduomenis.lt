@@ -3,6 +3,8 @@ layout: post
 title: "Rožiniai akiniai"
 description: ""
 category: Ekonomika
+author_name: Vaidotas Zemlys
+author_link: http://vzemlys.wordpress.com
 tags: [A. Butkevičius, BVP augimas, sezoniškumas, rožiniai akiniai, P. Gylys]
 ---
 {% include JB/setup %}
@@ -28,6 +30,7 @@ Bei reziumuojama
 
 
 Susirūpinęs Lietuvos likimu pasiėmiau realaus BVP duomenis iš statistikos departamento: 
+
 ![plot of chunk rbvp](https://github.com/mpiktas/myliuduomenis.lt/raw/master/2012-05-23-roziniai-akiniai/figure/rbvp.png) 
 
 
