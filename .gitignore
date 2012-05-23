@@ -2,6 +2,8 @@
 .RData
 #Ignore all R transcript files
 *.Rt
+#Ignore .Rhistory
+.Rhistory
 #Ignore emacs and vim temporary files
 *.swp
 *.swo
