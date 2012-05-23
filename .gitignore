@@ -9,6 +9,8 @@
 *.swo
 .#*
 *#
+#Ignore html files, since we will use markdown only
+*.html
 #Ignore Apple files
 .DS_Store
 

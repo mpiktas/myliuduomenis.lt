@@ -7,10 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
-``` {r setup,echo=FALSE,message=FALSE}
-# you do not need this unless you also commit images to your Github repository
-opts_knit$set(base.url='https://github.com/mpiktas/myliuduomenis.lt/raw/master/2012-05-23-roziniai-akiniai/')
-````
+
+
 Vakar lrytas.lt radau šį
 [straipsnį](http://www.lrytas.lt/-13359628511334496736-a-butkevi%C4%8Dius-valdantieji-nori-rink%C4%97jams-u%C5%BEd%C4%97ti-ro%C5%BEinius-akinius.htm"). Jame ekonomikos mokslų daktaras Algirdas Butkevičius teigia, kad 
 
@@ -30,21 +28,14 @@ Bei reziumuojama
 
 
 Susirūpinęs Lietuvos likimu pasiėmiau realaus BVP duomenis iš statistikos departamento: 
-``` {r rbvp, message=FALSE,echo=FALSE,warning=FALSE}
-library(ggplot2)
-bvp <- read.csv("data/bvprn.csv",na.string="..")
-rbvp <- na.omit(ts(bvp$Realus,start=c(1993,1),frequency=4))
-qplot(x=time(rbvp),y=rbvp,geom="point",xlab="Metai",ylab="Mln. Lt")+geom_line()+opts(title="Realus BVP")
-```
+![plot of chunk rbvp](https://github.com/mpiktas/myliuduomenis.lt/raw/master/2012-05-23-roziniai-akiniai/figure/rbvp.png) 
+
 
 
 Pažiūrėjus į grafiką matosi, kad Lietuvos BVP beveik **visados** krinta ketvirtą ir pirmą metų ketvirčiais. Atskirai pažiūrėjus ketvirto ketvirčio augimus nuo 1995 metų matosi toks vaizdas:
 
-``` {r bvpg, message=FALSE, echo=FALSE,warning=FALSE}
-k4 <- subset(rbvp,time(rbvp)-trunc(time(rbvp))==0.75)
-k3 <- subset(rbvp,time(rbvp)-trunc(time(rbvp))==0.5)
-qplot(x=1995:2011,y=(k4-k3)/k3*100,geom="bar",stat="identity",xlab="Metai",ylab="Procentai")+opts(title="IV ketvirčio BVP augimas palyginus su III ketvirčio BVP")
-```
+![plot of chunk bvpg](https://github.com/mpiktas/myliuduomenis.lt/raw/master/2012-05-23-roziniai-akiniai/figure/bvpg.png) 
+
 
 
 **Visi** augimai **neigiami**. Taigi minėtos tendencijos kartojasi jau 17 metų, nepriklausomai nuo krizių, ekonomikos atsigavimų ir kitų faktorių. 
