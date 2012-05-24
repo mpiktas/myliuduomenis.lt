@@ -16,8 +16,9 @@
 	{% if site.author.feedburner %}
   	<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/{{ site.author.feedburner }}" title="RSS feed" />
 	{% endif %}
-	{% if site.rss_path %}
-  	<link rel="alternate" type="application/atom+xml" href="{{ site.rss_path }}" title="RSS feed" />
+
+	{% if site.JB.rss_path %}
+  	<link rel="alternate" type="application/atom+xml" href="{{ site.JB.rss_path }}" title="RSS feed" />
 	{% endif %}
 
    <!-- syntax highlighting CSS -->
