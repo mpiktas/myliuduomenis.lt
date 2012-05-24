@@ -1,12 +1,12 @@
 
-http://myliuduomenis.lt/apie.html
-http://myliuduomenis.lt/archive.html
-http://myliuduomenis.lt/atom.xml
-http://myliuduomenis.lt/categories.html
-http://myliuduomenis.lt/index.html
-http://myliuduomenis.lt/pages.html
-http://myliuduomenis.lt/sitemap.txt
-http://myliuduomenis.lt/tags.html
+http://mpiktas.github.com/myliuduomenis.lt/apie.html
+http://mpiktas.github.com/myliuduomenis.lt/archive.html
+http://mpiktas.github.com/myliuduomenis.lt/atom.xml
+http://mpiktas.github.com/myliuduomenis.lt/categories.html
+http://mpiktas.github.com/myliuduomenis.lt/index.html
+http://mpiktas.github.com/myliuduomenis.lt/pages.html
+http://mpiktas.github.com/myliuduomenis.lt/sitemap.txt
+http://mpiktas.github.com/myliuduomenis.lt/tags.html
 
-http://myliuduomenis.lt/Ekonomika/2012/05/23/roziniai-akiniai
-http://myliuduomenis.lt/2012/05/20/hello-world
+http://mpiktas.github.com/myliuduomenis.lt/Ekonomika/2012/05/23/roziniai-akiniai
+http://mpiktas.github.com/myliuduomenis.lt/2012/05/20/hello-world

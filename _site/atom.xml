@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Myliuduomenis.lt</title>
- <link href="http://myliuduomenis.lt/atom.xml" rel="self"/>
- <link href="http://myliuduomenis.lt"/>
- <updated>2012-05-24T06:34:37+03:00</updated>
- <id>http://myliuduomenis.lt</id>
+ <link href="http://mpiktas.github.com/myliuduomenis.lt/atom.xml" rel="self"/>
+ <link href="http://mpiktas.github.com/myliuduomenis.lt"/>
+ <updated>2012-05-24T11:22:13+03:00</updated>
+ <id>http://mpiktas.github.com/myliuduomenis.lt</id>
  <author>
    <name>Vaidotas Zemlys</name>
    <email>zemlys@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Rožiniai akiniai</title>
-   <link href="http://myliuduomenis.lt/Ekonomika/2012/05/23/roziniai-akiniai"/>
+   <link href="http://mpiktas.github.com/myliuduomenis.lt/Ekonomika/2012/05/23/roziniai-akiniai"/>
    <updated>2012-05-23T00:00:00+03:00</updated>
-   <id>http://myliuduomenis.lt/Ekonomika/2012/05/23/roziniai-akiniai</id>
+   <id>http://mpiktas.github.com/myliuduomenis.lt/Ekonomika/2012/05/23/roziniai-akiniai</id>
    <content type="html">&lt;p&gt;Vakar lrytas.lt radau šį &lt;a href='http://www.lrytas.lt/-13359628511334496736-a-butkevi%C4%8Dius-valdantieji-nori-rink%C4%97jams-u%C5%BEd%C4%97ti-ro%C5%BEinius-akinius.htm&amp;quot;'&gt;straipsnį&lt;/a&gt;. Jame ekonomikos mokslų daktaras Algirdas Butkevičius teigia, kad&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -52,9 +52,9 @@
  
  <entry>
    <title>Hello world</title>
-   <link href="http://myliuduomenis.lt/2012/05/20/hello-world"/>
+   <link href="http://mpiktas.github.com/myliuduomenis.lt/2012/05/20/hello-world"/>
    <updated>2012-05-20T00:00:00+03:00</updated>
-   <id>http://myliuduomenis.lt/2012/05/20/hello-world</id>
+   <id>http://mpiktas.github.com/myliuduomenis.lt/2012/05/20/hello-world</id>
    <content type="html"></content>
  </entry>
  
