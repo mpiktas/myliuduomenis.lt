@@ -1,0 +1,7 @@
+{% capture menesis %}{{ page.date | date: "%B"}}{% endcapture %}
+{% case menesis %}
+{% when 'May' %} 
+Gegužė
+{% else %}
+{{ menesis }}
+{% endcase %}
