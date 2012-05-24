@@ -4,7 +4,7 @@
  <title>Myliuduomenis.lt</title>
  <link href="http://myliuduomenis.lt/atom.xml" rel="self"/>
  <link href="http://myliuduomenis.lt"/>
- <updated>2012-05-24T16:28:21+03:00</updated>
+ <updated>2012-05-24T17:23:10+03:00</updated>
  <id>http://myliuduomenis.lt</id>
  <author>
    <name>Vaidotas Zemlys</name>
@@ -55,7 +55,7 @@
    <link href="http://myliuduomenis.lt/2012/05/20/hello-world"/>
    <updated>2012-05-20T00:00:00+03:00</updated>
    <id>http://myliuduomenis.lt/2012/05/20/hello-world</id>
-   <content type="html">&lt;p&gt;Gegužė&lt;/p&gt;</content>
+   <content type="html"></content>
  </entry>
  
  
