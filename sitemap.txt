@@ -1,8 +1,12 @@
----
-# Remember to set production_url in your _config.yml file!
-title : Sitemap
----
-{% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
-{% for post in site.posts %}
-{{site.production_url}}{{ post.url }}{% endfor %}
+
+http://myliuduomenis.lt/apie.html
+http://myliuduomenis.lt/archive.html
+http://myliuduomenis.lt/atom.xml
+http://myliuduomenis.lt/categories.html
+http://myliuduomenis.lt/index.html
+http://myliuduomenis.lt/pages.html
+http://myliuduomenis.lt/sitemap.txt
+http://myliuduomenis.lt/tags.html
+
+http://myliuduomenis.lt/Ekonomika/2012/05/23/roziniai-akiniai
+http://myliuduomenis.lt/2012/05/20/hello-world
