@@ -6,5 +6,13 @@
 #Ignore Apple files
 .DS_Store
 #
-_site/
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+Thumbs.db
+
+_site/*
+_theme_packages/*
+
 
