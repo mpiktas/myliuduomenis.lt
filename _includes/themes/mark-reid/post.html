@@ -4,7 +4,7 @@
 
   <address class="signature">
     <a class="author" href="{{ page.author_link }}">{{ page.author_name }}</a> 
-    <span class="date">{{ page.date | date_to_long_string }}</span>
+    <span class="date">{{ page.date | localize: "%Y-%m-%d" }}</span>
     <span class="location">{{ page.location }}</span>
   </address>
 
