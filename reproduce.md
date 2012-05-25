@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Reproduce"
+title: "Atkartojimo instrukcijos"
 description: ""
 ---
 {% include JB/setup %}
@@ -12,6 +12,6 @@ rezultatus. Iš gauto failo naudojant [jekyll](http://jekyllrb.org) yra
 sugeneruojamas html. Norint sugeneruoti straipsnį pas save geriausia naudoti
 [Rstudio](http://www.rstudio.org). Atsisiųskite  norimo straipsnio
 katalogą iš myliuduomenis.lt git
-[saugyklos](http://github.com/myliuduomenis.lt). Atsidarykite su Rstudio
+[saugyklos](http://github.com/mpiktas/myliuduomenis.lt). Atsidarykite su Rstudio
 atitinkamą .Rmd failą ir paspauskite `Knit Html` Voila :)
 
