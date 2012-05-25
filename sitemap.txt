@@ -5,6 +5,7 @@ http://myliuduomenis.lt/atom.xml
 http://myliuduomenis.lt/categories.html
 http://myliuduomenis.lt/index.html
 http://myliuduomenis.lt/pages.html
+http://myliuduomenis.lt/reproduce.html
 http://myliuduomenis.lt/sitemap.txt
 http://myliuduomenis.lt/tags.html
 
