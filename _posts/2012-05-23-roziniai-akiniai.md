@@ -12,7 +12,7 @@ tags: [A. Butkevičius, BVP augimas, sezoniškumas, rožiniai akiniai, P. Gylys]
 
 
 Vakar lrytas.lt radau šį
-[straipsnį](http://www.lrytas.lt/-13359628511334496736-a-butkevi%C4%8Dius-valdantieji-nori-rink%C4%97jams-u%C5%BEd%C4%97ti-ro%C5%BEinius-akinius.htm"). Jame ekonomikos mokslų daktaras Algirdas Butkevičius teigia, kad 
+[straipsnį](http://www.lrytas.lt/-13359628511334496736-a-butkevi%C4%8Dius-valdantieji-nori-rink%C4%97jams-u%C5%BEd%C4%97ti-ro%C5%BEinius-akinius.htm). Jame ekonomikos mokslų daktaras Algirdas Butkevičius teigia, kad 
 
 > stebima neigiama BVP pokyčių tendencija kelia rimtą nerimą: BVP jau ir per ketvirtąjį > praėjusių metų ketvirtį smuko 5,5 proc.
 
@@ -47,4 +47,4 @@ Pažiūrėjus į grafiką matosi, kad Lietuvos BVP beveik **visados** krinta ket
 
 Dar keisčiau, kad kitas ekonomikos mokslų daktaras Povilas Gylys, pasirenka
 kaltinti Statistikos departamentą [visuomenės
-klaidinimu](http://verslas.delfi.lt/business/ekonomistai-susikibo-del-salies-bvp-augimo.d?id=586462350) bet apie savo kolegos (moksline prasme) klaidingus išvedžiojimus nutyli. 
+klaidinimu](http://verslas.delfi.lt/business/ekonomistai-susikibo-del-salies-bvp-augimo.d?id=58646235) bet apie savo kolegos (moksline prasme) klaidingus išvedžiojimus nutyli. 
