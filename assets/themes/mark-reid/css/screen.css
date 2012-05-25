@@ -301,7 +301,7 @@ body#Kith #header a.kith
 .list .title { font-weight: bold; }
 p.line { position: relative; margin: 0; }
 p.excerpt { margin: 0; }
-.comments { font-size: smaller; position: absolute; color: silver; right: 0; top: 0; }
+.comments { font-size: smaller; position: relative; color: silver; right: 0; top: 0; float: right; }
 .excerpt { color: black; }
 
 /* @group Signature */
