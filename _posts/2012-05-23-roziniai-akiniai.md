@@ -48,3 +48,5 @@ Pažiūrėjus į grafiką matosi, kad Lietuvos BVP beveik **visados** krinta ket
 Dar keisčiau, kad kitas ekonomikos mokslų daktaras Povilas Gylys, pasirenka
 kaltinti Statistikos departamentą [visuomenės
 klaidinimu](http://verslas.delfi.lt/business/ekonomistai-susikibo-del-salies-bvp-augimo.d?id=58646235) bet apie savo kolegos (moksline prasme) klaidingus išvedžiojimus nutyli. 
+
+[Straipsniui naudota medžiaga](http://github.com/mpiktas/myliuduomenis.lt/tree/master/2012-05-23-roziniai-akiniai)
