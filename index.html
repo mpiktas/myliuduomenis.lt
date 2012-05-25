@@ -6,7 +6,7 @@ layout: empty
 
 {% assign pirmas = site.posts.first %}
 
-<h1>{{ pirmas.title }}</h1>
+<h1><a href="{{ pirmas.url }}">{{ pirmas.title }}</a></h1>
 
  <address class="signature">
     <a class="author" href="{{ pirmas.author_link }}">{{ pirmas.author_name }}</a> 
@@ -15,8 +15,18 @@ layout: empty
   </address>
 
 {{ pirmas.content }}
- 
-{% include addthis.html %}
+
+<a href="{{ pirmas.url}}#disquss_thread">Komentarai</a>
+
+<div class="addthis_toolbox addthis_default_style " addthis:url="{{pirmas.url}}"
+    addthis:title="{{ pirmas title }}">
+<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<a class="addthis_button_tweet"></a>
+<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript">var addthis_config =  {"data_track_addressbar":false};</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fbf47df522e2117"></script>
 
 <h2>Kiti straipsniai</h2>
 <ul class="posts">
@@ -24,4 +34,20 @@ layout: empty
     <li><span>{{ post.date | localize: "%Y %B %d" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+		var links = document.getElementsByTagName('a');
+		var query = '?';
+		for(var i = 0; i < links.length; i++) {
+			if(links[i].href.indexOf('#disqus_thread') >= 0) {
+				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+			}
+		}
+		document.write('<script type="text/javascript"
+		    src="http://disqus.com/forums/myliuduomenis/get_num_replies.js' + query + '"></' + 'script>');
+	})();
+//]]>
+</script>
 
