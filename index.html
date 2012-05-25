@@ -1,0 +1,25 @@
+---
+layout: empty
+---
+
+{% include JB/setup %}
+
+{% assign pirmas = site.posts.first %}
+
+<h1>{{ pirmas.title }}</h1>
+
+ <address class="signature">
+    <a class="author" href="{{ pirmas.author_link }}">{{ pirmas.author_name }}</a> 
+    <span class="date">{{ pirmas.date | localize: "%Y-%m-%d" }}</span>
+    <span class="location">{{ pirmas.location }}</span>
+  </address>
+
+{{ pirmas.content }}
+
+<h2>Kiti straipsniai</h2>
+<ul class="posts">
+  {% for post in site.posts offset:1 %}
+    <li><span>{{ post.date | localize: "%Y %B %d" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
