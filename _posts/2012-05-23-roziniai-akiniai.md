@@ -14,7 +14,7 @@ tags: [A. Butkevičius, BVP augimas, sezoniškumas, rožiniai akiniai, P. Gylys]
 Vakar lrytas.lt radau šį
 [straipsnį](http://www.lrytas.lt/-13359628511334496736-a-butkevi%C4%8Dius-valdantieji-nori-rink%C4%97jams-u%C5%BEd%C4%97ti-ro%C5%BEinius-akinius.htm). Jame ekonomikos mokslų daktaras Algirdas Butkevičius teigia, kad 
 
-> stebima neigiama BVP pokyčių tendencija kelia rimtą nerimą: BVP jau ir per ketvirtąjį > praėjusių metų ketvirtį smuko 5,5 proc.
+> stebima neigiama BVP pokyčių tendencija kelia rimtą nerimą: BVP jau ir per ketvirtąjį praėjusių metų ketvirtį smuko 5,5 proc.
 
 Toliau yra klausiama:
 

@@ -1,5 +1,6 @@
 ---
 layout: empty
+title: Myliuduomenis.lt
 ---
 
 {% include JB/setup %}
@@ -30,6 +31,11 @@ layout: empty
 <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fbf47df522e2117"></script>
 
 </div>
+
+  <ul class="tag_box inline">
+  {% assign tags_list = pirmas.tags %}
+  {% include JB/tags_list %}
+  </ul>
 
 
 <h2>Kiti straipsniai</h2>
