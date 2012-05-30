@@ -22,14 +22,179 @@ Kad nebūtų nusukta kalba nuo "tragiškos" Lietuvos padėties straipsnį A. But
 
 Kita įdomi mintis yra apie grėsmingą skolą sudarančią net 46% BVP. [Maastrichto sutartyje](http://en.wikipedia.org/wiki/Maastricht_Treaty) nurodyta, kad skola metų pabaigoje neturi viršyti 60%. [Eurostato duomenimis](http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsieb090) (be įmantrių A. Butkevičiaus finansinių skaičiavimų), Lietuvos skola sudaro 38,5% BVP. Palyginimui galima pažiūrėti į grafiką, kaip atrodo kitų šalių skolos su BVP santykiai:
 
-```{r results=asis,message=FALSE,echo=FALSE,tidy=FALSE}
-library(googleVis)
-adt <- read.csv("data/Eurostat_Table_tsieb090FlagNoDesc_Sheet0.csv",na.string=":")
-colnames(adt)[1] <- "Country"
-dt <- na.omit(adt[-5:-1,c("Country","X2011")])
-colnames(dt)[2]<-"Skolos santykis"
-print(gvisGeoChart(dt,"Country","Skolos santykis",option=list(region="150",colorAxis="{colors: ['blue', 'red']}")),"chart")
-```
+<!-- GeoChart generated in R 2.15.0 by googleVis 0.2.15 package -->
+<!-- Wed May 30 17:09:53 2012 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript" src="http://www.google.com/jsapi">
+</script>
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataGeoChartID1325d845aee ()
+{
+  var data = new google.visualization.DataTable();
+  var datajson =
+[
+ [
+ "Bulgaria",
+       16.3 
+],
+[
+ "Czech Republic",
+       41.2 
+],
+[
+ "Denmark",
+       46.5 
+],
+[
+ "Germany",
+       81.2 
+],
+[
+ "Estonia",
+          6 
+],
+[
+ "Ireland",
+      108.2 
+],
+[
+ "Greece",
+      165.3 
+],
+[
+ "Spain",
+       68.5 
+],
+[
+ "France",
+       85.8 
+],
+[
+ "Italy",
+      120.1 
+],
+[
+ "Cyprus",
+       71.6 
+],
+[
+ "Latvia",
+       42.6 
+],
+[
+ "Lithuania",
+       38.5 
+],
+[
+ "Luxembourg",
+       18.2 
+],
+[
+ "Hungary",
+       80.6 
+],
+[
+ "Malta",
+         72 
+],
+[
+ "Netherlands",
+       65.2 
+],
+[
+ "Austria",
+       72.2 
+],
+[
+ "Poland",
+       56.3 
+],
+[
+ "Portugal",
+      107.8 
+],
+[
+ "Romania",
+       33.3 
+],
+[
+ "Slovenia",
+       47.6 
+],
+[
+ "Slovakia",
+       43.3 
+],
+[
+ "Finland",
+       48.6 
+],
+[
+ "Sweden",
+       38.4 
+],
+[
+ "United Kingdom",
+       85.7 
+],
+[
+ "Iceland",
+       98.8 
+],
+[
+ "Norway",
+         29 
+] 
+];
+data.addColumn('string','Country');
+data.addColumn('number','Skolos.santykis');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartGeoChartID1325d845aee() {
+  var data = gvisDataGeoChartID1325d845aee();
+  var options = {};
+options["width"] =    556;
+options["height"] =    347;
+options["region"] = "150";
+options["colorAxis"] = {colors: ['blue', 'red']};
+
+     var chart = new google.visualization.GeoChart(
+       document.getElementById('GeoChartID1325d845aee')
+     );
+     chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart 
+function displayChartGeoChartID1325d845aee()
+{
+  google.load("visualization", "1", { packages:["geochart"] }); 
+  google.setOnLoadCallback(drawChartGeoChartID1325d845aee);
+}
+ 
+// jsChart 
+displayChartGeoChartID1325d845aee()
+ 
+<!-- jsFooter -->  
+//-->
+</script>
+ 
+<!-- divChart -->
+  
+<div id="GeoChartID1325d845aee"
+  style="width: 556px; height: 347px;">
+</div>
+
+
 
 
 Matome, kad Lietuvos situacija palyginus su kitomis ES šalimis yra visai nebloga. Iki Estijos ar skandinavų mums toli, bet visą Europa išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos.

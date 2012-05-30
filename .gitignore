@@ -15,3 +15,5 @@
 .DS_Store
 #Ignore site since it is not necessary 
 _site/*
+.Rproj.user
+*.Rproj
