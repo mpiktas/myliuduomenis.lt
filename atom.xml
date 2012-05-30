@@ -4,13 +4,200 @@
  <title>Myliuduomenis.lt</title>
  <link href="http://myliuduomenis.lt/atom.xml" rel="self"/>
  <link href="http://myliuduomenis.lt"/>
- <updated>2012-05-28T21:41:31+03:00</updated>
+ <updated>2012-05-30T17:09:56+03:00</updated>
  <id>http://myliuduomenis.lt</id>
  <author>
    <name>Vaidotas Zemlys</name>
    <email>zemlys@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Rožiniai akiniai II</title>
+   <link href="http://myliuduomenis.lt/Ekonomika/2012/05/24/roziniai-akiniai-ii"/>
+   <updated>2012-05-24T00:00:00+03:00</updated>
+   <id>http://myliuduomenis.lt/Ekonomika/2012/05/24/roziniai-akiniai-ii</id>
+   <content type="html">&lt;p&gt;Prieš tai rašytą &lt;a href='http://myliuduomenis.lt/Ekonomika/2012/05/23/roziniai-akiniai'&gt;tekstą&lt;/a&gt; sutiko atspausdinti &lt;a href='http://www.15min.lt'&gt;15.min&lt;/a&gt;. Aišku teko prieš tai jį &lt;a href='http://www.15min.lt/naujiena/ziniosgyvai/nuomones/vaidotas-zemlys-apie-klaidingus-a-butkeviciaus-svarstymus-del-bvp-augimo-18-216502?preview'&gt;paredaguoti&lt;/a&gt;, nes &amp;#8221;&amp;#8230;mes dedame straipsnius su daugiau argumentų, išvystyta mintimi&amp;#8221;, dėl ko negali prieštarauti :).&lt;/p&gt;
+
+&lt;p&gt;Į išspausdintą nuomonę gana greitai buvo &lt;a href='http://www.15min.lt/naujiena/ziniosgyvai/nuomones/algirdas-butkevicius-ar-sulauksime-ekonomikos-pavasario-18-216786'&gt;atsakyta&lt;/a&gt;. Ne kasdieną pasiseka apsikeisti nuomonėmis su Seimo opozicijos lyderiu (pabandykite tai padaryti didesnėje valstybėje), tai jaučiuosi pamalonintas.&lt;/p&gt;
+
+&lt;p&gt;Galima sakyti dalinai mano straipsnis pasiekė tikslą, nes atsakyme A. Butkevičius jau cituoja realaus BVP augimo skaičius ir pakeičia BVP kritimo žinią į lėtėjančio augimo. Aišku kodėl jis nusprendžia, kad aš kitokiu pjūviu nagrinėjau duomenis, tai neaišku. Grafike buvo tie duomenys, kuriuos jis citavo originaliame straipsnyje, tik pratęsta istorinė eilutė.&lt;/p&gt;
+
+&lt;p&gt;Kad nebūtų nusukta kalba nuo &amp;#8220;tragiškos&amp;#8221; Lietuvos padėties straipsnį A. Butkevičius baigia pasvarstymu apie Lietuvos valstybės skolą. A. Butkevičius teigia, kad:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Rekordiniai šie metai ir skolinimosi mastais. Vos per pusketvirto mėnesio Vyriausybė sugebėjo pasiskolinti 6,8 mlrd. litų, kuriuos panaudosime senesnėms skoloms grąžinti ir didėjančioms biudžeto skylėms lopyti. Šią sumą pridėjus prie 41,74 mlrd., kuriuos Lietuva buvo skolinga praėjusių metų gruodžio 31-ąją, susidaro grėsminga skola, dabar jau sudaranti maždaug 46 proc. BVP. Matant tokią situaciją, apgailėtinai skamba Vyriausybės pranešimas, kad pirmąjį šių metų ketvirtį valstybės biudžetas pasipildė 104,7 mln. litų pajamų daugiau, nei planuota.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Čia demonstruojama ypatinga aritmetika. Vyriausybė skolinasi 6,8 mlrd litų skolom &lt;strong&gt;grąžinti&lt;/strong&gt; bet ši suma pridedama prie jau esamos skolos. Taigi jeigu esi skolingas 1 litą ir pasiskolini 1 litą grąžinti skolai, lieki skolingas 2 litus. Priminsiu, kad A. Butkevičius 2 metus buvo finansų ministras.&lt;/p&gt;
+
+&lt;p&gt;Kita įdomi mintis yra apie grėsmingą skolą sudarančią net 46% BVP. &lt;a href='http://en.wikipedia.org/wiki/Maastricht_Treaty'&gt;Maastrichto sutartyje&lt;/a&gt; nurodyta, kad skola metų pabaigoje neturi viršyti 60%. &lt;a href='http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&amp;amp;init=1&amp;amp;plugin=1&amp;amp;language=en&amp;amp;pcode=tsieb090'&gt;Eurostato duomenimis&lt;/a&gt; (be įmantrių A. Butkevičiaus finansinių skaičiavimų), Lietuvos skola sudaro 38,5% BVP. Palyginimui galima pažiūrėti į grafiką, kaip atrodo kitų šalių skolos su BVP santykiai:&lt;/p&gt;
+&lt;!-- GeoChart generated in R 2.15.0 by googleVis 0.2.15 package --&gt;&lt;!-- Wed May 30 17:09:53 2012 --&gt;&lt;!-- jsHeader --&gt;&lt;script src='http://www.google.com/jsapi' type='text/javascript'&gt;
+&lt;/script&gt;&lt;script type='text/javascript'&gt;
+ 
+// jsData 
+function gvisDataGeoChartID1325d845aee ()
+{
+  var data = new google.visualization.DataTable();
+  var datajson =
+[
+ [
+ &quot;Bulgaria&quot;,
+       16.3 
+],
+[
+ &quot;Czech Republic&quot;,
+       41.2 
+],
+[
+ &quot;Denmark&quot;,
+       46.5 
+],
+[
+ &quot;Germany&quot;,
+       81.2 
+],
+[
+ &quot;Estonia&quot;,
+          6 
+],
+[
+ &quot;Ireland&quot;,
+      108.2 
+],
+[
+ &quot;Greece&quot;,
+      165.3 
+],
+[
+ &quot;Spain&quot;,
+       68.5 
+],
+[
+ &quot;France&quot;,
+       85.8 
+],
+[
+ &quot;Italy&quot;,
+      120.1 
+],
+[
+ &quot;Cyprus&quot;,
+       71.6 
+],
+[
+ &quot;Latvia&quot;,
+       42.6 
+],
+[
+ &quot;Lithuania&quot;,
+       38.5 
+],
+[
+ &quot;Luxembourg&quot;,
+       18.2 
+],
+[
+ &quot;Hungary&quot;,
+       80.6 
+],
+[
+ &quot;Malta&quot;,
+         72 
+],
+[
+ &quot;Netherlands&quot;,
+       65.2 
+],
+[
+ &quot;Austria&quot;,
+       72.2 
+],
+[
+ &quot;Poland&quot;,
+       56.3 
+],
+[
+ &quot;Portugal&quot;,
+      107.8 
+],
+[
+ &quot;Romania&quot;,
+       33.3 
+],
+[
+ &quot;Slovenia&quot;,
+       47.6 
+],
+[
+ &quot;Slovakia&quot;,
+       43.3 
+],
+[
+ &quot;Finland&quot;,
+       48.6 
+],
+[
+ &quot;Sweden&quot;,
+       38.4 
+],
+[
+ &quot;United Kingdom&quot;,
+       85.7 
+],
+[
+ &quot;Iceland&quot;,
+       98.8 
+],
+[
+ &quot;Norway&quot;,
+         29 
+] 
+];
+data.addColumn('string','Country');
+data.addColumn('number','Skolos.santykis');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartGeoChartID1325d845aee() {
+  var data = gvisDataGeoChartID1325d845aee();
+  var options = {};
+options[&quot;width&quot;] =    556;
+options[&quot;height&quot;] =    347;
+options[&quot;region&quot;] = &quot;150&quot;;
+options[&quot;colorAxis&quot;] = {colors: ['blue', 'red']};
+
+     var chart = new google.visualization.GeoChart(
+       document.getElementById('GeoChartID1325d845aee')
+     );
+     chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart 
+function displayChartGeoChartID1325d845aee()
+{
+  google.load(&quot;visualization&quot;, &quot;1&quot;, { packages:[&quot;geochart&quot;] }); 
+  google.setOnLoadCallback(drawChartGeoChartID1325d845aee);
+}
+ 
+// jsChart 
+displayChartGeoChartID1325d845aee()
+ 
+&lt;!-- jsFooter --&gt;  
+//--&gt;
+&lt;/script&gt;&lt;!-- divChart --&gt;&lt;div id='GeoChartID1325d845aee' style='width: 556px; height: 347px;'&gt;
+&lt;/div&gt;
+&lt;p&gt;Matome, kad Lietuvos situacija palyginus su kitomis ES šalimis yra visai nebloga. Iki Estijos ar skandinavų mums toli, bet visą Europa išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos.&lt;/p&gt;
+
+&lt;p&gt;A. Butkevičiaus svarstymų apie skolą neiškentė nepakomentavus ir &lt;a href='http://www.15min.lt/naujiena/ziniosgyvai/nuomones/ingrida-simonyte-miegokite-ramiai-daktare-algirdai-butkeviciau-kitai-vyriausybei-teks-rupintis-jusu-valdzios-isleista-skola-18-218787'&gt;I. Šimonytė.&lt;/a&gt; Matosi tai skaudi jai tema, nes jai teko spręsti problemas, kurias paliko tas pats A. Butkevičius, buvęs finansų ministru 2004-2006 metais.&lt;/p&gt;
+
+&lt;p&gt;Tęsiant &amp;#8220;tragiškos&amp;#8221; Lietuvos ekonominės situacijos temą, gana linksmai atrodo tuojau pat po A. Butkevičiaus komentaro pasirodę &lt;a href='http://vz.lt/?PublicationId=92a1d1de-e31a-4fd4-93a8-95e3665d2989&amp;amp;ref=rss'&gt;Lietuvos banko&lt;/a&gt; ir &lt;a href='http://vz.lt/article/2012/5/11/ek-pagerino-lietuvos-bvp-prognoze'&gt;Europos Komisijos&lt;/a&gt; pranešimai apie padidintas Lietuvos BVP metinio augimo prognozes.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Rožiniai akiniai</title>
@@ -50,14 +237,6 @@
 &lt;p&gt;Dar keisčiau, kad kitas ekonomikos mokslų daktaras Povilas Gylys, pasirenka kaltinti Statistikos departamentą &lt;a href='http://verslas.delfi.lt/business/ekonomistai-susikibo-del-salies-bvp-augimo.d?id=58646235'&gt;visuomenės klaidinimu&lt;/a&gt; bet apie savo kolegos (moksline prasme) klaidingus išvedžiojimus nutyli.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href='http://github.com/mpiktas/myliuduomenis.lt/tree/master/2012-05-23-roziniai-akiniai'&gt;Straipsniui naudota medžiaga&lt;/a&gt;&lt;/p&gt;</content>
- </entry>
- 
- <entry>
-   <title>Hello world</title>
-   <link href="http://myliuduomenis.lt/2012/05/20/hello-world"/>
-   <updated>2012-05-20T00:00:00+03:00</updated>
-   <id>http://myliuduomenis.lt/2012/05/20/hello-world</id>
-   <content type="html">&lt;p&gt;Gegužė&lt;/p&gt;</content>
  </entry>
  
  
