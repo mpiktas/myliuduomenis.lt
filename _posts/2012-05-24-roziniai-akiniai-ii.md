@@ -5,10 +5,10 @@ description: ""
 category: Ekonomika
 author_name: Vaidotas Zemlys
 author_link: http://vzemlys.wordpress.com
-tags: [A.Butkevičius]
+tags: [A. Butkevičius, valstybės skola, skolos santykis su BVP, I. Šimonytė, 15min.lt]
 ---
 {% include JB/setup %}
-Prieš tai rašytą [tekstą]({% post_url 2012-05-23-roziniai-akiniai%}) sutiko atspausdinti [15.min](http://www.15min.lt). Aišku teko prieš tai jį [paredaguoti](http://www.15min.lt/naujiena/ziniosgyvai/nuomones/vaidotas-zemlys-apie-klaidingus-a-butkeviciaus-svarstymus-del-bvp-augimo-18-216502?preview), nes "...mes dedame straipsnius su daugiau argumentų, išvystyta mintimi", dėl ko negali prieštarauti :). 
+Prieš tai rašytą [tekstą](http://myliuduomenis.lt/Ekonomika/2012/05/23/roziniai-akiniai) sutiko atspausdinti [15.min](http://www.15min.lt). Aišku teko prieš tai jį [paredaguoti](http://www.15min.lt/naujiena/ziniosgyvai/nuomones/vaidotas-zemlys-apie-klaidingus-a-butkeviciaus-svarstymus-del-bvp-augimo-18-216502?preview), nes "...mes dedame straipsnius su daugiau argumentų, išvystyta mintimi", dėl ko negali prieštarauti :). 
 
 Į išspausdintą nuomonę gana greitai buvo [atsakyta](http://www.15min.lt/naujiena/ziniosgyvai/nuomones/algirdas-butkevicius-ar-sulauksime-ekonomikos-pavasario-18-216786). Ne kasdieną pasiseka apsikeisti nuomonėmis su Seimo opozicijos lyderiu (pabandykite tai padaryti didesnėje valstybėje), tai jaučiuosi pamalonintas. 
 
@@ -20,10 +20,10 @@ Kad nebūtų nusukta kalba nuo "tragiškos" Lietuvos padėties straipsnį A. But
 
 Čia demonstruojama ypatinga aritmetika. Vyriausybė skolinasi 6,8 mlrd litų skolom **grąžinti** bet ši suma pridedama prie jau esamos skolos. Taigi jeigu esi skolingas 1 litą ir pasiskolini 1 litą grąžinti skolai, lieki skolingas 2 litus. Priminsiu, kad A. Butkevičius 2 metus buvo finansų ministras.
 
-Kita įdomi mintis yra apie grėsmingą skolą sudarančią net 46% BVP. [Maastrichto sutartyje](http://en.wikipedia.org/wiki/Maastricht_Treaty) nurodyta, kad skola metų pabaigoje neturi viršyti 60%. Eurostato duomenimis (be įmantrių A. Butkevičiaus finansinių skaičiavimų), Lietuvos skola sudaro 38,5% BVP. Palyginimui galima pažiūrėti į grafiką, kaip atrodo kitų šalių skolos su BVP santykiai:
+Kita įdomi mintis yra apie grėsmingą skolą sudarančią net 46% BVP. [Maastrichto sutartyje](http://en.wikipedia.org/wiki/Maastricht_Treaty) nurodyta, kad skola metų pabaigoje neturi viršyti 60%. [Eurostato duomenimis](http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsieb090) (be įmantrių A. Butkevičiaus finansinių skaičiavimų), Lietuvos skola sudaro 38,5% BVP. Palyginimui galima pažiūrėti į grafiką, kaip atrodo kitų šalių skolos su BVP santykiai:
 
 <!-- GeoChart generated in R 2.15.0 by googleVis 0.2.15 package -->
-<!-- Wed May 30 15:35:33 2012 -->
+<!-- Wed May 30 17:09:53 2012 -->
 
 
 <!-- jsHeader -->
@@ -32,169 +32,141 @@ Kita įdomi mintis yra apie grėsmingą skolą sudarančią net 46% BVP. [Maastr
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID132753ec0b7 ()
+function gvisDataGeoChartID1325d845aee ()
 {
   var data = new google.visualization.DataTable();
   var datajson =
 [
  [
  "Bulgaria",
-          1,
        16.3 
 ],
 [
  "Czech Republic",
-          2,
        41.2 
 ],
 [
  "Denmark",
-          2,
        46.5 
 ],
 [
  "Germany",
-          4,
        81.2 
 ],
 [
  "Estonia",
-          1,
           6 
 ],
 [
  "Ireland",
-          5,
       108.2 
 ],
 [
  "Greece",
-          5,
       165.3 
 ],
 [
  "Spain",
-          3,
        68.5 
 ],
 [
  "France",
-          5,
        85.8 
 ],
 [
  "Italy",
-          5,
       120.1 
 ],
 [
  "Cyprus",
-          3,
        71.6 
 ],
 [
  "Latvia",
-          2,
        42.6 
 ],
 [
  "Lithuania",
-          2,
        38.5 
 ],
 [
  "Luxembourg",
-          1,
        18.2 
 ],
 [
  "Hungary",
-          4,
        80.6 
 ],
 [
  "Malta",
-          4,
          72 
 ],
 [
  "Netherlands",
-          3,
        65.2 
 ],
 [
  "Austria",
-          4,
        72.2 
 ],
 [
  "Poland",
-          3,
        56.3 
 ],
 [
  "Portugal",
-          5,
       107.8 
 ],
 [
  "Romania",
-          1,
        33.3 
 ],
 [
  "Slovenia",
-          3,
        47.6 
 ],
 [
  "Slovakia",
-          2,
        43.3 
 ],
 [
  "Finland",
-          3,
        48.6 
 ],
 [
  "Sweden",
-          1,
        38.4 
 ],
 [
  "United Kingdom",
-          4,
        85.7 
 ],
 [
  "Iceland",
-          5,
        98.8 
 ],
 [
  "Norway",
-          1,
          29 
 ] 
 ];
 data.addColumn('string','Country');
-data.addColumn('number','Ranking');
-data.addColumn('number','X2011');
+data.addColumn('number','Skolos.santykis');
 data.addRows(datajson);
 return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID132753ec0b7() {
-  var data = gvisDataGeoChartID132753ec0b7();
+function drawChartGeoChartID1325d845aee() {
+  var data = gvisDataGeoChartID1325d845aee();
   var options = {};
 options["width"] =    556;
 options["height"] =    347;
 options["region"] = "150";
+options["colorAxis"] = {colors: ['blue', 'red']};
 
      var chart = new google.visualization.GeoChart(
-       document.getElementById('GeoChartID132753ec0b7')
+       document.getElementById('GeoChartID1325d845aee')
      );
      chart.draw(data,options);
     
@@ -203,14 +175,14 @@ options["region"] = "150";
   
  
 // jsDisplayChart 
-function displayChartGeoChartID132753ec0b7()
+function displayChartGeoChartID1325d845aee()
 {
   google.load("visualization", "1", { packages:["geochart"] }); 
-  google.setOnLoadCallback(drawChartGeoChartID132753ec0b7);
+  google.setOnLoadCallback(drawChartGeoChartID1325d845aee);
 }
  
 // jsChart 
-displayChartGeoChartID132753ec0b7()
+displayChartGeoChartID1325d845aee()
  
 <!-- jsFooter -->  
 //-->
@@ -218,12 +190,15 @@ displayChartGeoChartID132753ec0b7()
  
 <!-- divChart -->
   
-<div id="GeoChartID132753ec0b7"
+<div id="GeoChartID1325d845aee"
   style="width: 556px; height: 347px;">
 </div>
 
 
 
-Valstybės skola skaudi tema finansų ministrei I. Šimonytei, nes jai teko tvarkytis su A. Butkevičiaus palikimu. Tai ji per daug nesirinkdama žodžių surašė tai ką apie A. Butkevičiaus pasvarstymus ji [galvoja.](http://www.15min.lt/naujiena/ziniosgyvai/nuomones/ingrida-simonyte-miegokite-ramiai-daktare-algirdai-butkeviciau-kitai-vyriausybei-teks-rupintis-jusu-valdzios-isleista-skola-18-218787)
 
-Tęsiant "tragiškos" Lietuvos ekonominės situacijos temą, gana linksmai atrodo tuojau pat po A. Butkevičiaus komentaro pasirodę pranešimai, kad rimtos institucijos persvarstė ir padidino metinę Lietuvos BVP augimo prognozę.
+Matome, kad Lietuvos situacija palyginus su kitomis ES šalimis yra visai nebloga. Iki Estijos ar skandinavų mums toli, bet visą Europa išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos.
+
+A. Butkevičiaus svarstymų apie skolą neiškentė nepakomentavus ir [I. Šimonytė.](http://www.15min.lt/naujiena/ziniosgyvai/nuomones/ingrida-simonyte-miegokite-ramiai-daktare-algirdai-butkeviciau-kitai-vyriausybei-teks-rupintis-jusu-valdzios-isleista-skola-18-218787) Matosi tai skaudi jai tema, nes jai teko spręsti problemas, kurias paliko tas pats A. Butkevičius, buvęs finansų ministru 2004-2006 metais.
+
+Tęsiant "tragiškos" Lietuvos ekonominės situacijos temą, gana linksmai atrodo tuojau pat po A. Butkevičiaus komentaro pasirodę [Lietuvos banko](http://vz.lt/?PublicationId=92a1d1de-e31a-4fd4-93a8-95e3665d2989&ref=rss) ir [Europos Komisijos](http://vz.lt/article/2012/5/11/ek-pagerino-lietuvos-bvp-prognoze) pranešimai apie padidintas Lietuvos BVP metinio augimo prognozes. 
