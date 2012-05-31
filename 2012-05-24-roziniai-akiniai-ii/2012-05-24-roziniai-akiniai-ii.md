@@ -23,7 +23,7 @@ Kad nebūtų nusukta kalba nuo "tragiškos" Lietuvos padėties straipsnį A. But
 Kita įdomi mintis yra apie grėsmingą skolą sudarančią net 46% BVP. [Maastrichto sutartyje](http://en.wikipedia.org/wiki/Maastricht_Treaty) nurodyta, kad skola metų pabaigoje neturi viršyti 60%. [Eurostato duomenimis](http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsieb090) (be įmantrių A. Butkevičiaus finansinių skaičiavimų), Lietuvos skola sudaro 38,5% BVP. Palyginimui galima pažiūrėti į grafiką, kaip atrodo kitų šalių skolos su BVP santykiai:
 
 <!-- GeoChart generated in R 2.15.0 by googleVis 0.2.15 package -->
-<!-- Thu May 31 06:03:59 2012 -->
+<!-- Thu May 31 10:07:35 2012 -->
 
 
 <!-- jsHeader -->
@@ -32,7 +32,7 @@ Kita įdomi mintis yra apie grėsmingą skolą sudarančią net 46% BVP. [Maastr
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID13239147173 ()
+function gvisDataGeoChartID1326d24524b ()
 {
   var data = new google.visualization.DataTable();
   var datajson =
@@ -157,8 +157,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID13239147173() {
-  var data = gvisDataGeoChartID13239147173();
+function drawChartGeoChartID1326d24524b() {
+  var data = gvisDataGeoChartID1326d24524b();
   var options = {};
 options["width"] =    556;
 options["height"] =    347;
@@ -166,7 +166,7 @@ options["region"] = "150";
 options["colorAxis"] = {colors: ['blue', 'red']};
 
      var chart = new google.visualization.GeoChart(
-       document.getElementById('GeoChartID13239147173')
+       document.getElementById('GeoChartID1326d24524b')
      );
      chart.draw(data,options);
     
@@ -175,14 +175,14 @@ options["colorAxis"] = {colors: ['blue', 'red']};
   
  
 // jsDisplayChart 
-function displayChartGeoChartID13239147173()
+function displayChartGeoChartID1326d24524b()
 {
   google.load("visualization", "1", { packages:["geochart"] }); 
-  google.setOnLoadCallback(drawChartGeoChartID13239147173);
+  google.setOnLoadCallback(drawChartGeoChartID1326d24524b);
 }
  
 // jsChart 
-displayChartGeoChartID13239147173()
+displayChartGeoChartID1326d24524b()
  
 <!-- jsFooter -->  
 //-->
@@ -190,14 +190,14 @@ displayChartGeoChartID13239147173()
  
 <!-- divChart -->
   
-<div id="GeoChartID13239147173"
+<div id="GeoChartID1326d24524b"
   style="width: 556px; height: 347px;">
 </div>
 
 
 
 
-Matome, kad Lietuvos situacija palyginus su kitomis šalimis yra visai nebloga. Iki Estijos mums toli, bet visą Europą išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos. 
+Matome, kad Lietuvos situacija palyginus su kitomis šalimis yra visai nebloga. Iki Estijos mums toli, bet visą Europą išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos. (Kiekvienos šalies tikslų skolos su BVP santykį galima pamatyti nurodžius šalį žemėlapyje)
 
 A. Butkevičiaus svarstymų apie skolą neiškentė nepakomentavus ir [I. Šimonytė.](http://www.15min.lt/naujiena/ziniosgyvai/nuomones/ingrida-simonyte-miegokite-ramiai-daktare-algirdai-butkeviciau-kitai-vyriausybei-teks-rupintis-jusu-valdzios-isleista-skola-18-218787) Matosi, kad tai skaudi jai tema, nes jai teko spręsti problemas, kurias paliko Vyriausybė, kurios finansų ministru 2004-2006 metais buvo tas pats A. Butkevičius.
 

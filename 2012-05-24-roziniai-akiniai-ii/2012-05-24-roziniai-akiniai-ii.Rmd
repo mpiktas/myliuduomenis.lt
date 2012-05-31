@@ -32,7 +32,7 @@ print(gvisGeoChart(dt,"Country","Skolos santykis",option=list(region="150",color
 ```
 
 
-Matome, kad Lietuvos situacija palyginus su kitomis šalimis yra visai nebloga. Iki Estijos mums toli, bet visą Europą išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos. 
+Matome, kad Lietuvos situacija palyginus su kitomis šalimis yra visai nebloga. Iki Estijos mums toli, bet visą Europą išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos. (Kiekvienos šalies tikslų skolos su BVP santykį galima pamatyti nurodžius šalį žemėlapyje)
 
 A. Butkevičiaus svarstymų apie skolą neiškentė nepakomentavus ir [I. Šimonytė.](http://www.15min.lt/naujiena/ziniosgyvai/nuomones/ingrida-simonyte-miegokite-ramiai-daktare-algirdai-butkeviciau-kitai-vyriausybei-teks-rupintis-jusu-valdzios-isleista-skola-18-218787) Matosi, kad tai skaudi jai tema, nes jai teko spręsti problemas, kurias paliko Vyriausybė, kurios finansų ministru 2004-2006 metais buvo tas pats A. Butkevičius.
 
