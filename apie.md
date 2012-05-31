@@ -6,7 +6,15 @@ group: navigation
 ---
 {% include JB/setup %}
 
-Šiame puslapyje bus rašoma apie netinkamą duomenų analizę.
+Aš myliu duomenis. Ir man skauda širdį, kai vieni duomenys yra rodomi, o kiti
+yra ignoruojami. Šis puslapis yra skirtas ignoruotiems duomenims. Kol kas tai
+asmeninė iniciatyva, bet jeigu norite jungtis, arba išreikšti nuomonę
+tiesiogiai, rašykite į Google paštą, adresu *zemlys*.
+
+[![Feed icon](feed-icon-14x14.png){:title="Atom feed of recent posts".right}][RSS] Norintys gali prenumeruoti puslapio [RSS][]. 
+
+[RSS]: /atom.xml
+
 
 ##Atvirumas
 
