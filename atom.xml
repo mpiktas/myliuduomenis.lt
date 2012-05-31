@@ -4,7 +4,7 @@
  <title>Myliuduomenis.lt</title>
  <link href="http://myliuduomenis.lt/atom.xml" rel="self"/>
  <link href="http://myliuduomenis.lt"/>
- <updated>2012-05-31T06:46:46+03:00</updated>
+ <updated>2012-05-31T10:08:00+03:00</updated>
  <id>http://myliuduomenis.lt</id>
  <author>
    <name>Vaidotas Zemlys</name>
@@ -32,11 +32,11 @@
 &lt;p&gt;Čia demonstruojama ypatinga aritmetika. Vyriausybė skolinasi 6,8 mlrd litų skolom &lt;strong&gt;grąžinti&lt;/strong&gt; bet ši suma pridedama prie jau esamos skolos. Taigi jeigu esi skolingas 1 litą ir pasiskolini 1 litą grąžinti skolai, lieki skolingas 2 litus. Priminsiu, kad A. Butkevičius 2 metus buvo finansų ministras.&lt;/p&gt;
 
 &lt;p&gt;Kita įdomi mintis yra apie grėsmingą skolą sudarančią net 46% BVP. &lt;a href='http://en.wikipedia.org/wiki/Maastricht_Treaty'&gt;Maastrichto sutartyje&lt;/a&gt; nurodyta, kad skola metų pabaigoje neturi viršyti 60%. &lt;a href='http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&amp;amp;init=1&amp;amp;plugin=1&amp;amp;language=en&amp;amp;pcode=tsieb090'&gt;Eurostato duomenimis&lt;/a&gt; (be įmantrių A. Butkevičiaus finansinių skaičiavimų), Lietuvos skola sudaro 38,5% BVP. Palyginimui galima pažiūrėti į grafiką, kaip atrodo kitų šalių skolos su BVP santykiai:&lt;/p&gt;
-&lt;!-- GeoChart generated in R 2.15.0 by googleVis 0.2.15 package --&gt;&lt;!-- Thu May 31 06:03:59 2012 --&gt;&lt;!-- jsHeader --&gt;&lt;script src='http://www.google.com/jsapi' type='text/javascript'&gt;
+&lt;!-- GeoChart generated in R 2.15.0 by googleVis 0.2.15 package --&gt;&lt;!-- Thu May 31 10:07:35 2012 --&gt;&lt;!-- jsHeader --&gt;&lt;script src='http://www.google.com/jsapi' type='text/javascript'&gt;
 &lt;/script&gt;&lt;script type='text/javascript'&gt;
  
 // jsData 
-function gvisDataGeoChartID13239147173 ()
+function gvisDataGeoChartID1326d24524b ()
 {
   var data = new google.visualization.DataTable();
   var datajson =
@@ -161,8 +161,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID13239147173() {
-  var data = gvisDataGeoChartID13239147173();
+function drawChartGeoChartID1326d24524b() {
+  var data = gvisDataGeoChartID1326d24524b();
   var options = {};
 options[&quot;width&quot;] =    556;
 options[&quot;height&quot;] =    347;
@@ -170,7 +170,7 @@ options[&quot;region&quot;] = &quot;150&quot;;
 options[&quot;colorAxis&quot;] = {colors: ['blue', 'red']};
 
      var chart = new google.visualization.GeoChart(
-       document.getElementById('GeoChartID13239147173')
+       document.getElementById('GeoChartID1326d24524b')
      );
      chart.draw(data,options);
     
@@ -179,20 +179,20 @@ options[&quot;colorAxis&quot;] = {colors: ['blue', 'red']};
   
  
 // jsDisplayChart 
-function displayChartGeoChartID13239147173()
+function displayChartGeoChartID1326d24524b()
 {
   google.load(&quot;visualization&quot;, &quot;1&quot;, { packages:[&quot;geochart&quot;] }); 
-  google.setOnLoadCallback(drawChartGeoChartID13239147173);
+  google.setOnLoadCallback(drawChartGeoChartID1326d24524b);
 }
  
 // jsChart 
-displayChartGeoChartID13239147173()
+displayChartGeoChartID1326d24524b()
  
 &lt;!-- jsFooter --&gt;  
 //--&gt;
-&lt;/script&gt;&lt;!-- divChart --&gt;&lt;div id='GeoChartID13239147173' style='width: 556px; height: 347px;'&gt;
+&lt;/script&gt;&lt;!-- divChart --&gt;&lt;div id='GeoChartID1326d24524b' style='width: 556px; height: 347px;'&gt;
 &lt;/div&gt;
-&lt;p&gt;Matome, kad Lietuvos situacija palyginus su kitomis šalimis yra visai nebloga. Iki Estijos mums toli, bet visą Europą išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos.&lt;/p&gt;
+&lt;p&gt;Matome, kad Lietuvos situacija palyginus su kitomis šalimis yra visai nebloga. Iki Estijos mums toli, bet visą Europą išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos. (Kiekvienos šalies tikslų skolos su BVP santykį galima pamatyti nurodžius šalį žemėlapyje)&lt;/p&gt;
 
 &lt;p&gt;A. Butkevičiaus svarstymų apie skolą neiškentė nepakomentavus ir &lt;a href='http://www.15min.lt/naujiena/ziniosgyvai/nuomones/ingrida-simonyte-miegokite-ramiai-daktare-algirdai-butkeviciau-kitai-vyriausybei-teks-rupintis-jusu-valdzios-isleista-skola-18-218787'&gt;I. Šimonytė.&lt;/a&gt; Matosi, kad tai skaudi jai tema, nes jai teko spręsti problemas, kurias paliko Vyriausybė, kurios finansų ministru 2004-2006 metais buvo tas pats A. Butkevičius.&lt;/p&gt;
 
