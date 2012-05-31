@@ -12,7 +12,7 @@ Prieš tai rašytą [tekstą](http://myliuduomenis.lt/Ekonomika/2012/05/23/rozin
 
 Į išspausdintą nuomonę gana greitai buvo [atsakyta](http://www.15min.lt/naujiena/ziniosgyvai/nuomones/algirdas-butkevicius-ar-sulauksime-ekonomikos-pavasario-18-216786). Ne kasdieną pasiseka apsikeisti nuomonėmis su Seimo opozicijos lyderiu (pabandykite tai padaryti didesnėje valstybėje), tai jaučiuosi pamalonintas. 
 
-Galima sakyti dalinai mano straipsnis pasiekė tikslą, nes atsakyme A. Butkevičius jau cituoja realaus BVP augimo skaičius ir pakeičia BVP kritimo žinią į lėtėjančio augimo. Aišku kodėl jis nusprendžia, kad aš kitokiu pjūviu nagrinėjau duomenis, tai neaišku. Grafike buvo tie duomenys, kuriuos jis citavo originaliame straipsnyje, tik pratęsta istorinė eilutė. 
+Galima sakyti iš dalies mano straipsnis pasiekė tikslą, nes atsakyme A. Butkevičius jau cituoja realaus BVP augimo skaičius ir pakeičia BVP kritimo žinią į lėtėjančio augimo. Kodėl jis nusprendžia, kad aš kitokiu pjūviu nagrinėjau duomenis, tai nėra aišku. Grafike buvo tie duomenys, kuriuos jis citavo originaliame straipsnyje, tik pratęsta istorinė eilutė. 
 
 Kad nebūtų nusukta kalba nuo "tragiškos" Lietuvos padėties straipsnį A. Butkevičius baigia pasvarstymu apie Lietuvos valstybės skolą. A. Butkevičius teigia, kad:
 
@@ -23,7 +23,7 @@ Kad nebūtų nusukta kalba nuo "tragiškos" Lietuvos padėties straipsnį A. But
 Kita įdomi mintis yra apie grėsmingą skolą sudarančią net 46% BVP. [Maastrichto sutartyje](http://en.wikipedia.org/wiki/Maastricht_Treaty) nurodyta, kad skola metų pabaigoje neturi viršyti 60%. [Eurostato duomenimis](http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsieb090) (be įmantrių A. Butkevičiaus finansinių skaičiavimų), Lietuvos skola sudaro 38,5% BVP. Palyginimui galima pažiūrėti į grafiką, kaip atrodo kitų šalių skolos su BVP santykiai:
 
 <!-- GeoChart generated in R 2.15.0 by googleVis 0.2.15 package -->
-<!-- Wed May 30 17:09:53 2012 -->
+<!-- Thu May 31 06:03:59 2012 -->
 
 
 <!-- jsHeader -->
@@ -32,7 +32,7 @@ Kita įdomi mintis yra apie grėsmingą skolą sudarančią net 46% BVP. [Maastr
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID1325d845aee ()
+function gvisDataGeoChartID13239147173 ()
 {
   var data = new google.visualization.DataTable();
   var datajson =
@@ -157,8 +157,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID1325d845aee() {
-  var data = gvisDataGeoChartID1325d845aee();
+function drawChartGeoChartID13239147173() {
+  var data = gvisDataGeoChartID13239147173();
   var options = {};
 options["width"] =    556;
 options["height"] =    347;
@@ -166,7 +166,7 @@ options["region"] = "150";
 options["colorAxis"] = {colors: ['blue', 'red']};
 
      var chart = new google.visualization.GeoChart(
-       document.getElementById('GeoChartID1325d845aee')
+       document.getElementById('GeoChartID13239147173')
      );
      chart.draw(data,options);
     
@@ -175,14 +175,14 @@ options["colorAxis"] = {colors: ['blue', 'red']};
   
  
 // jsDisplayChart 
-function displayChartGeoChartID1325d845aee()
+function displayChartGeoChartID13239147173()
 {
   google.load("visualization", "1", { packages:["geochart"] }); 
-  google.setOnLoadCallback(drawChartGeoChartID1325d845aee);
+  google.setOnLoadCallback(drawChartGeoChartID13239147173);
 }
  
 // jsChart 
-displayChartGeoChartID1325d845aee()
+displayChartGeoChartID13239147173()
  
 <!-- jsFooter -->  
 //-->
@@ -190,15 +190,19 @@ displayChartGeoChartID1325d845aee()
  
 <!-- divChart -->
   
-<div id="GeoChartID1325d845aee"
+<div id="GeoChartID13239147173"
   style="width: 556px; height: 347px;">
 </div>
 
 
 
 
-Matome, kad Lietuvos situacija palyginus su kitomis ES šalimis yra visai nebloga. Iki Estijos ar skandinavų mums toli, bet visą Europa išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos.
+Matome, kad Lietuvos situacija palyginus su kitomis šalimis yra visai nebloga. Iki Estijos mums toli, bet visą Europą išlaikančios Vokietijos skolos santykis su BVP yra daugiau nei dvigubai didesnis negu Lietuvos. 
 
-A. Butkevičiaus svarstymų apie skolą neiškentė nepakomentavus ir [I. Šimonytė.](http://www.15min.lt/naujiena/ziniosgyvai/nuomones/ingrida-simonyte-miegokite-ramiai-daktare-algirdai-butkeviciau-kitai-vyriausybei-teks-rupintis-jusu-valdzios-isleista-skola-18-218787) Matosi tai skaudi jai tema, nes jai teko spręsti problemas, kurias paliko tas pats A. Butkevičius, buvęs finansų ministru 2004-2006 metais.
+A. Butkevičiaus svarstymų apie skolą neiškentė nepakomentavus ir [I. Šimonytė.](http://www.15min.lt/naujiena/ziniosgyvai/nuomones/ingrida-simonyte-miegokite-ramiai-daktare-algirdai-butkeviciau-kitai-vyriausybei-teks-rupintis-jusu-valdzios-isleista-skola-18-218787) Matosi, kad tai skaudi jai tema, nes jai teko spręsti problemas, kurias paliko Vyriausybė, kurios finansų ministru 2004-2006 metais buvo tas pats A. Butkevičius.
 
 Tęsiant "tragiškos" Lietuvos ekonominės situacijos temą, gana linksmai atrodo tuojau pat po A. Butkevičiaus komentaro pasirodę [Lietuvos banko](http://vz.lt/?PublicationId=92a1d1de-e31a-4fd4-93a8-95e3665d2989&ref=rss) ir [Europos Komisijos](http://vz.lt/article/2012/5/11/ek-pagerino-lietuvos-bvp-prognoze) pranešimai apie padidintas Lietuvos BVP metinio augimo prognozes. 
+
+Pabaigai norėčiau pasakyti, kad čia pateikta informacija nereiškia, kad Lietuvoje staiga pradėjo plaukti pieno upės. Bet gal nėra viskas taip blogai, kaip nori parodyti A. Butkevičius.
+
+[Straipsniui naudota medžiaga](http://github.com/mpiktas/myliuduomenis.lt/tree/master/2012-05-24-roziniai-akiniai-ii)
