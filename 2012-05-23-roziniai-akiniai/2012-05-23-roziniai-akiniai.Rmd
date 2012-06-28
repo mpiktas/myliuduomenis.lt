@@ -9,7 +9,10 @@ tags: []
 
 ``` {r setup,echo=FALSE,message=FALSE}
 # you do not need this unless you also commit images to your Github repository
-opts_knit$set(base.url='https://github.com/mpiktas/myliuduomenis.lt/raw/master/2012-05-23-roziniai-akiniai/')
+gitsubdir <- paste(tail(strsplit(getwd(),"/")[[1]],1),"/",sep="")
+gitrep <- "https://github.com/mpiktas/myliuduomenis.lt"
+gitbranch <- "master"
+opts_knit$set(base.url=paste(gitrep,"raw",gitbranch,gitsubdir,sep="/"))
 ````
 Vakar lrytas.lt radau šį
 [straipsnį](http://www.lrytas.lt/-13359628511334496736-a-butkevi%C4%8Dius-valdantieji-nori-rink%C4%97jams-u%C5%BEd%C4%97ti-ro%C5%BEinius-akinius.htm"). Jame ekonomikos mokslų daktaras Algirdas Butkevičius teigia, kad 
