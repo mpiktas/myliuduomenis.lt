@@ -22,7 +22,7 @@ Neseniai [lrytas.lt](http://lrytas.lt) pasirodė [straipsnis](http://www.lrytas.
 
 Taigi jeigu tavo vaikas nesugeba sukaupti dėmesio, apie universitetą svajok. Taip? Juk net 50 procentų didesnis šansas, tai atrodo tikrai nemažas skirtumas. Bet Einšteinas ir universitetą baigė ir Nobelio premiją gavo, nors vaikystėje buvo laikomas visišku nevėkšla. Taigi kaip čia yra? Viskas paaiškėja šansus konvertavus į tikimybes. Štai šitame grafike atidėta tikimybė vaikui baigti universitetą, kai jis geriau sukaupia dėmesį ir kai jo šansai yra 50% didesni, palyginus su tikimybe vaiko, kuris dėmesį sukaupia prasčiau:
 
-```{r cmp echo=FALSE, message=FALSE, warning=FALSE}
+```{r cmp, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 ff <- function(q,z)1-1/(z*(q/(1-q))+1)
 q <- seq(0,1,by=0.001)
