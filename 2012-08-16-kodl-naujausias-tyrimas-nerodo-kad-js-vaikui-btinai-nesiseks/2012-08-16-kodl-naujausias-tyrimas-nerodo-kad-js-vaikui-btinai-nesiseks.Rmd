@@ -26,14 +26,8 @@ Taigi jeigu tavo vaikas nesugeba sukaupti dėmesio, apie universitetą svajok. T
 library(ggplot2)
 ff <- function(q,z)1-1/(z*(q/(1-q))+1)
 q <- seq(0,1,by=0.001)
-qplot(q,ff(q,1.5)) 
+qplot(q,ff(q,1.5),geom="line",xlab="Tikimybė, kad baigs universitetą, jei prasčiau susikaupia",ylab="Tikimybė, kad baigs universitetą, jei susikaupia geriau")+opts(title="Universiteto baigimo tikimybių palyginimas") 
 ```
-
-
-tikimybės vaikui baigti universitetą, kai jis geriau sukaupia dėmesį palyginus su tuo, kuris dėmesį sukaupia geriau, bei kai pastarojo šansai yra 50% didesni:
-
-
-Tarkime kad vaikas prasčiau sukaupia dėmesį vaikystėje. Galime preziumuoti kad dalis tokių vaikų vis tiek pabaigs universitetą, dėl įvairių priežasčių: tėvai pasistengs ir t.t. 
 
 
 

@@ -23,17 +23,228 @@ Taigi jeigu tavo vaikas nesugeba sukaupti dėmesio, apie universitetą svajok. T
 library(ggplot2)
 ff <- function(q, z) 1 - 1/(z * (q/(1 - q)) + 1)
 q <- seq(0, 1, by = 0.001)
-qplot(q, ff(q, 1.5))
+qplot(q, ff(q, 1.5), geom = "line", xlab = "Tikimybė, kad baigs universitetą, jei prasčiau susikaupia", 
+    ylab = "Tikimybė, kad baigs universitetą, jei susikaupia geriau") + opts(title = "Universiteto baigimo tikimybių palyginimas")
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <97>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <85>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Universiteto baigimo tikimybių palyginimas' dans 'mbcsToSbcs' : le point est substitué pour <c5>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Universiteto baigimo tikimybių palyginimas' dans 'mbcsToSbcs' : le point est substitué pour <b3>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <97>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <85>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <8d>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <97>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <85>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Universiteto baigimo tikimybių palyginimas' dans 'mbcsToSbcs' : le point est substitué pour <c5>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Universiteto baigimo tikimybių palyginimas' dans 'mbcsToSbcs' : le point est substitué pour <b3>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <97>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <85>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <8d>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Universiteto baigimo tikimybių palyginimas' dans 'mbcsToSbcs' : le point est substitué pour <c5>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Universiteto baigimo tikimybių palyginimas' dans 'mbcsToSbcs' : le point est substitué pour <b3>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <97>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <85>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei prasčiau susikaupia' dans 'mbcsToSbcs' : le point est substitué pour <8d>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <97>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <c4>
+```
+
+
+
+```
+## Warning message: erreur de conversion de 'Tikimybė, kad baigs universitetą, jei susikaupia geriau' dans 'mbcsToSbcs' : le point est substitué pour <85>
 ```
 
 ![plot of chunk unnamed-chunk-1](https://github.com/mpiktas/myliuduomenis.lt/raw/master/2012-08-16-kodl-naujausias-tyrimas-nerodo-kad-js-vaikui-btinai-nesiseks/figure/unnamed-chunk-1.png) 
 
-
-
-tikimybės vaikui baigti universitetą, kai jis geriau sukaupia dėmesį palyginus su tuo, kuris dėmesį sukaupia geriau, bei kai pastarojo šansai yra 50% didesni:
-
-
-Tarkime kad vaikas prasčiau sukaupia dėmesį vaikystėje. Galime preziumuoti kad dalis tokių vaikų vis tiek pabaigs universitetą, dėl įvairių priežasčių: tėvai pasistengs ir t.t. 
 
 
 
