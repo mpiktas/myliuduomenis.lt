@@ -4,13 +4,37 @@
  <title>Myliuduomenis.lt</title>
  <link href="http://myliuduomenis.lt/atom.xml" rel="self"/>
  <link href="http://myliuduomenis.lt"/>
- <updated>2012-06-01T06:18:29+03:00</updated>
+ <updated>2012-08-16T15:14:49+03:00</updated>
  <id>http://myliuduomenis.lt</id>
  <author>
    <name>Vaidotas Zemlys</name>
    <email>zemlys@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Kodėl naujausias tyrimas nerodo, kad jūsų vaikui būtinai nesiseks?</title>
+   <link href="http://myliuduomenis.lt/Tyrimai/2012/08/16/kodl-naujausias-tyrimas-nerodo-kad-js-vaikui-btinai-nesiseks"/>
+   <updated>2012-08-16T00:00:00+03:00</updated>
+   <id>http://myliuduomenis.lt/Tyrimai/2012/08/16/kodl-naujausias-tyrimas-nerodo-kad-js-vaikui-btinai-nesiseks</id>
+   <content type="html">&lt;p&gt;Neseniai &lt;a href='http://lrytas.lt'&gt;lrytas.lt&lt;/a&gt; pasirodė &lt;a href='http://www.lrytas.lt/-13444074971344337991-dar%C5%BEelinukai-gebantys-geriau-koncentruoti-d%C4%97mes%C4%AF-turi-daugiau-galimybi%C5%B3-baigti-auk%C5%A1t%C4%85j%C4%85-mokykl%C4%85.htm'&gt;straipsnis&lt;/a&gt; apie Oregono universiteto tyrėjų atliktą tyrimą, kurio išvada buvo ta, kad&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Maži vaikai, kurie sugeba sukaupti dėmesį atlikdami užduotis, turi net 50 procentų didesnį šansą siekti aukštojo mokslo.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Taigi jeigu tavo vaikas nesugeba sukaupti dėmesio, apie universitetą svajok. Taip? Juk net 50 procentų didesnis šansas, tai atrodo tikrai nemažas skirtumas. Bet Einšteinas ir universitetą baigė ir Nobelio premiją gavo, nors vaikystėje buvo laikomas visišku nevėkšla. Taigi kaip čia yra? Viskas paaiškėja šansus konvertavus į tikimybes. Štai šitame grafike atidėta tikimybė vaikui baigti universitetą, kai jis geriau sukaupia dėmesį ir kai jo šansai yra 50% didesni, palyginus su tikimybe vaiko, kuris dėmesį sukaupia prasčiau:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='https://github.com/mpiktas/myliuduomenis.lt/raw/master/2012-08-16-kodl-naujausias-tyrimas-nerodo-kad-js-vaikui-btinai-nesiseks/figure/cmp.png' alt='plot of chunk cmp' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tarkime kad jūsų vaikas prasčiau sukaupia dėmesį, bet kitos savybės lemia tai, kad tokių vaikų universiteto baigimo tikimybė yra 50%. Tada jeigu jūsų vaikas susikaupia geriau, ir turi tokias pačias savybes kaip prasčiau susikaupiantis vaikas tikimybė baigti universitetą iš grafiko matome yra 60%. Tai neatrodo taip jau beviltiškai, kaip pasirodė iš pirmo karto.&lt;/p&gt;
+
+&lt;p&gt;Iš kur čia gavosi toks skirtumas ir kaip tos tikimybės suskaičiuotos? Daryto tyrimo &lt;a href='http://www.sciencedirect.com/science/article/pii/S0885200612000762'&gt;aprašyme&lt;/a&gt; galima rasti kad 50 procentų didesnis šansas reiškia &lt;a href='http://en.wikipedia.org/wiki/Odds_ratio'&gt;odds ratio&lt;/a&gt; arba šansų santykį lygų 1,5. Moksliniuose straipsniuose tai nusistovėjęs tyrimo rezultatų pateikimo būdas. Žinant, kas yra tas šansų santykis, nesunku jį konvertuoti į tikimybes.&lt;/p&gt;
+
+&lt;p&gt;Šio įrašo tikslas nėra sumenkinti tyrimo svarbos. Kaip gairė vaikų ugdyme tai labai svarbus tyrimas. Bet reikia turėti omenyje, kad tokiuose tyrimuose dažnai galioja ceteris paribus principas. Tai reiškia, kad teigiamas ar neigiamas poveikis randamas kontroliuojant kitus parametrus, tokius kaip vaiko įgimti sugebėjimai, namuose mokymuisi palanki aplinka, šeimos finansinė padėtis ir kita, kurie gali turėti kur kas didesnę įtaką galutiniam rezultatui, negu tiriamas poveikis.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://github.com/mpiktas/myliuduomenis.lt/tree/master/2012-08-16-kodl-naujausias-tyrimas-nerodo-kad-js-vaikui-btinai-nesiseks'&gt;Straipsniui naudota medžiaga&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Rožiniai akiniai II</title>
