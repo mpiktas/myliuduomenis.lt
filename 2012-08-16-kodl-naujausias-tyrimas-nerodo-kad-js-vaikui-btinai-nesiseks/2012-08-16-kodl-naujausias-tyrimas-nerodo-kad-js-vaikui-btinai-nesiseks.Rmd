@@ -22,15 +22,15 @@ Neseniai [lrytas.lt](http://lrytas.lt) pasirodė [straipsnis](http://www.lrytas.
 
 Taigi jeigu tavo vaikas nesugeba sukaupti dėmesio, apie universitetą svajok. Taip? Juk net 50 procentų didesnis šansas, tai atrodo tikrai nemažas skirtumas. Bet Einšteinas ir universitetą baigė ir Nobelio premiją gavo, nors vaikystėje buvo laikomas visišku nevėkšla. Taigi kaip čia yra? Viskas paaiškėja šansus konvertavus į tikimybes. Štai šitame grafike atidėta tikimybė vaikui baigti universitetą, kai jis geriau sukaupia dėmesį ir kai jo šansai yra 50% didesni, palyginus su tikimybe vaiko, kuris dėmesį sukaupia prasčiau:
 
-```{r}
+```{r cmp echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 ff <- function(q,z)1-1/(z*(q/(1-q))+1)
 q <- seq(0,1,by=0.001)
 qplot(q,ff(q,1.5),geom="line",xlab="Tikimybė, kad baigs universitetą, jei prasčiau susikaupia",ylab="Tikimybė, kad baigs universitetą, jei susikaupia geriau")+opts(title="Universiteto baigimo tikimybių palyginimas") 
 ```
 
+Tarkime kad jūsų vaikas prasčiau sukaupia dėmesį, bet kitos savybės lemia tai, kad tokių vaikų universiteto baigimo tikimybė yra 50%. Tada jeigu jūsų vaikas susikaupia geriau, ir turi tokias pačias savybes kaip prasčiau susikaupiantis vaikas tikimybė baigti universitetą iš grafiko matome yra 60%. Tai neatrodo taip jau beviltiškai, kaip pasirodė iš pirmo karto. 
 
+Iš kur čia gavosi toks skirtumas ir kaip tos tikimybės suskaičiuotos? Daryto tyrimo [aprašyme](http://www.sciencedirect.com/science/article/pii/S0885200612000762) galima rasti kad 50 procentų didesnis šansas reiškia [odds ratio](http://en.wikipedia.org/wiki/Odds_ratio) arba šansų santykį lygų 1,5. Moksliniuose straipsniuose tai nusistovėjęs tyrimo rezultatų pateikimo būdas. Žinant, kas yra tas šansų santykis, nesunku jį konvertuoti į tikimybes. 
 
-
-
-tyrimo [aprašymą](http://www.sciencedirect.com/science/article/pii/S0885200612000762). 
+Šio įrašo tikslas nėra sumenkinti tyrimo svarbos. Kaip gairė vaikų ugdyme tai labai svarbus tyrimas. Bet reikia turėti omenyje, kad tokiuose tyrimuose dažnai galioja ceteris paribus principas. Tai reiškia, kad teigiamas ar neigiamas poveikis randamas kontroliuojant kitus parametrus, tokius kaip vaiko įgimti sugebėjimai, namuose mokymuisi palanki aplinka, šeimos finansinė padėtis ir kita, kurie gali turėti kur kas didesnę įtaką galutiniam rezultatui, negu tiriamas poveikis. 
