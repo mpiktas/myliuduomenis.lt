@@ -2,8 +2,10 @@
 layout: post
 title: "Kodėl naujausias tyrimas nerodo, kad jūsų vaikui būtinai nesiseks?"
 description: ""
-category: 
-tags: []
+category: Tyrimai
+author_name: Vaidotas Zemlys
+author_link: http://vzemlys.wordpress.com
+tags: [universiteto baigimas, dėmesio sukaupimas, mokslinis tyrimas, šansų santykis, rezultatų interpretavimas]
 ---
 {% include JB/setup %}
 
@@ -34,3 +36,5 @@ Tarkime kad jūsų vaikas prasčiau sukaupia dėmesį, bet kitos savybės lemia 
 Iš kur čia gavosi toks skirtumas ir kaip tos tikimybės suskaičiuotos? Daryto tyrimo [aprašyme](http://www.sciencedirect.com/science/article/pii/S0885200612000762) galima rasti kad 50 procentų didesnis šansas reiškia [odds ratio](http://en.wikipedia.org/wiki/Odds_ratio) arba šansų santykį lygų 1,5. Moksliniuose straipsniuose tai nusistovėjęs tyrimo rezultatų pateikimo būdas. Žinant, kas yra tas šansų santykis, nesunku jį konvertuoti į tikimybes. 
 
 Šio įrašo tikslas nėra sumenkinti tyrimo svarbos. Kaip gairė vaikų ugdyme tai labai svarbus tyrimas. Bet reikia turėti omenyje, kad tokiuose tyrimuose dažnai galioja ceteris paribus principas. Tai reiškia, kad teigiamas ar neigiamas poveikis randamas kontroliuojant kitus parametrus, tokius kaip vaiko įgimti sugebėjimai, namuose mokymuisi palanki aplinka, šeimos finansinė padėtis ir kita, kurie gali turėti kur kas didesnę įtaką galutiniam rezultatui, negu tiriamas poveikis. 
+
+[Straipsniui naudota medžiaga](http://github.com/mpiktas/myliuduomenis.lt/tree/master/2012-08-16-kodl-naujausias-tyrimas-nerodo-kad-js-vaikui-btinai-nesiseks)
